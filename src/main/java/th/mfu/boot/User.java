@@ -7,7 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.GenerationType;
 
-
+@Entity
 public class User {
 
     @Id
@@ -47,7 +47,4 @@ public class User {
     public void setId(Long id) {
         this.id = id;
     }
-    
-    
-    
 }
